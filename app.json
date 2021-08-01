@@ -8,20 +8,15 @@
     "env": {
         "BOT_TOKEN": {
             "description": "From @Botfather",
-            "value": ""
+            "required": true
         },
         "SUDO_USER": {
             "description": "Full-access users, counted as admin everywhere, seperated by space.",
-            "value": ""
+            "required": true
         },
         "OWNER_USERNAME": {
             "description": "OWNER USERNAME.",
-            "value": ""
-        }
-    },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
-}
+            "required": true
+         }
+    }
+  }
